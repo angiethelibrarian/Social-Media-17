@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
-import { dateFormat } from './utils/dateFormat';
 import reactionSchema from './Reaction.js';
+
 
 // Use the following to create a Model called Thought should have thoughtText, String, Required, Trimmed, createdAt, Date, Default value is the current timestamp, virtuals should be true
 const thoughtSchema = new Schema({
@@ -18,11 +18,7 @@ const thoughtSchema = new Schema({
         required: true,
     },
     reactions: [
-        reactionSchema],
-    //  toJSON: {
-    // virtuals: true,
-    //     getters: true,
-    // }, id: false,  // set to false because this is a virtual that Mongoose returns, and we don't need it.          
+        reactionSchema],          
 });
 
 // TODO: Create a virtual called reactionCount that retrieves the length of the thought's reactions array field on query.
