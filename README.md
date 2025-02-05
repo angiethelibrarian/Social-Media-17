@@ -6,6 +6,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Walkthrough] (#walkthrough)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [Tests](#tests)
@@ -17,16 +18,13 @@
 ## Installation
 
 - npm i
-- Node.js
-- MongoDB
-- Render account
 
 
 ## Usage
 
 In this solution, users can 
 
-## Walkthrough Video
+## Walkthrough
 
 - Link:  
 
