@@ -6,7 +6,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Walkthrough] (#walkthrough)
+- [Walkthrough](#walkthrough)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [Tests](#tests)
@@ -33,6 +33,7 @@ In this solution, users can
 
 - Insomnia https://insomnia.rest
 - Tutor help via https://bootcampspot.instructure.com/courses/6651/external_tools/429
+- UCF Bootcamp TA
 
 ## Questions
 
