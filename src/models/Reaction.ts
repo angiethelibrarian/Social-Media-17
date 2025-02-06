@@ -1,4 +1,4 @@
-import { Schema, Types, type Document } from 'mongoose';
+import { Schema, Types } from 'mongoose';
 
 const reactionSchema = new Schema({
    reactionId: {
@@ -17,12 +17,8 @@ const reactionSchema = new Schema({
    createdAt: {
      type: Date,
      default: Date.now,
-     get: (timestamp:any) => dateFormat(timestamp)
+        get: (timestamp: Date) => timestamp.toDateString()
    }
 });
 
-reactionSchema.virtual('reactionCount').get(function() {
-  return this.reactions.length;
-
-});
 export default reactionSchema;
